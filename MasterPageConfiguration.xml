@@ -1,0 +1,13 @@
+<site MasterPageFile="Custom.master">
+
+  <directory name="">
+    <page name="default.aspx" MasterPageFile="customHomePage.master">Homepage</page>
+  </directory>
+
+
+
+
+</site>
+
+
+

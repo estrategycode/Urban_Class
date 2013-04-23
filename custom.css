@@ -1,0 +1,690 @@
+/* ..... Defaults ................................................................................................ */
+
+html body{}
+
+
+
+	/* ~~~~~ Link Styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	body #container a,
+	body #container a:link{color:#1119C6;}
+	body #container a:visited{color:#1119C6;}
+	body #container a:focus,
+	body #container a:active,
+	body #container a:hover{color:#1119C6;}
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+	/* ~~~~~ Heading Styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	/* ~~~~~ Heading Styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	body #container h1 {color:#000;}
+	body #container h2 {color:#000;}
+	body #container h3 {color:#000;}
+	body #container h4 {color:#000;}
+	body #container h5 {color:#000;}
+	body #container h6 {color:#000;}
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* .......................................................................................... */
+
+
+/* ====== Background ============================================================================================= */
+
+body #container{background:url(/CustomData/150069676/images/bg.jpg) fixed center top; padding-top:15px;}
+
+
+
+.module.module_templatepage h1{font-size:24px;}
+
+/* =============================================================================================================== */
+
+
+
+
+/* ====== Site Header =============================================================== */
+/*
+ * This is the main site header.  It has default content but is editable via a WYSIWYG.
+*/
+
+body #container > header {background: url(/CustomData/150069676/images/customheader.png); height:136px; width:980px; margin: 0px auto 0px;}
+	body #container > header > .pos{margin-top:8px;}
+
+		/* ~~~~~ Branding Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+		body #container > header > .pos .module.module_branding{display:none;}
+			body #container > header > .pos .module.module_branding > section,
+			body #container > header > .pos .module.module_branding > .content{}
+				/* Headings */
+				body #container > header > .pos .module.module_branding h1,
+				body #container > header > .pos .module.module_branding h2,
+				body #container > header > .pos .module.module_branding h3,
+				body #container > header > .pos .module.module_branding h4,
+				body #container > header > .pos .module.module_branding h5,
+				body #container > header > .pos .module.module_branding h6{}
+		/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ==================================================================================== */
+
+/* ===== Site Header for Splash Pages ==== */
+
+
+/* +++++ Menu Meta +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/*
+ * This is the supplementary menu in the site header ( Home | My Home Tracker | Contact | Log Out )
+*/
+
+body #container > header > .pos > #nav_head{float:right; margin-right: -144px;}
+	body #container > header > .pos > #nav_head ul{}
+		body #container > header > .pos > #nav_head ul li{}
+			/* Regular Links */
+			body #container > header > .pos > #nav_head ul li a,
+			body #container > header > .pos > #nav_head ul li a:link,
+			body #container > header > .pos > #nav_head ul li a:visited{color:white;}
+			/* Hover Links */
+			body #container > header > .pos > #nav_head ul li a:focus,
+			body #container > header > .pos > #nav_head ul li a:active,
+			body #container > header > .pos > #nav_head ul li a:hover{color:white;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#dividerbar{background: url(/CustomData/150069676/images/dividerBarBg.png); height:34px; width:960px; margin:0px auto 0px;}
+#menudividerbar{background: url(/CustomData/150069676/images/menuBarBg.png); height:20px; width:980px;  margin:0px auto 0px;}
+
+
+/* +++++ Menu Main +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/*
+ * This is the main site dropdown menu. The item widths are set by JavaScript. It's editable (items can be added, renamed, removed).
+*/
+body #container > .nav_main_wrapper {background: url(/CustomData/150069676/images/nav.jpg) !important; width:980px; margin:0px auto 0px; border:0px solid #87CEFE  !important; height:50px;}
+
+body #container > #nav_main{ }
+	body #container > #nav_main > .nav_main{font-size:16px; line-height:16px;}
+		body #container > #nav_main > .nav_main > ul{}
+
+			/* ~~~~~ Top Level Items ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container > #nav_main > .nav_main > ul > li{padding-top:12px; text-transform:uppercase;}
+				/* Regular Links */
+				body #container > #nav_main > .nav_main > ul > li > a,
+				body #container > #nav_main > .nav_main > ul > li > a:link,
+				body #container > #nav_main > .nav_main > ul > li > a:visited,
+				body #container > #nav_main > .nav_main > ul > li.ui-menu-item > a,
+				body #container > #nav_main > .nav_main > ul > li.ui-menu-item > a:link,
+				body #container > #nav_main > .nav_main > ul > li.ui-menu-item > a:visited{color:#000;  text-transform:uppercase;}
+				/* Hover Links */
+				body #container > #nav_main > #ui-active-menuitem,
+				body #container > #nav_main > .nav_main > ul > li > a:focus,
+				body #container > #nav_main > .nav_main > ul > li > a.ui-state-focus,
+				body #container > #nav_main > .nav_main > ul > li > a:active,
+				body #container > #nav_main > .nav_main > ul > li > a.ui-state-active,
+				body #container > #nav_main > .nav_main > ul > li > a:hover,
+				body #container > #nav_main > .nav_main > ul > li > a.ui-state-hover,
+				body #container > #nav_main > .nav_main > ul > li > a.ui-active-menuitem{color:#000; text-decoration:underline;}
+			/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+				/* ~~~~~ Drop Down Menus ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+				body #container > #nav_main > .nav_main > ul > li > ul{background-color:#909090;}
+					body #container > #nav_main > .nav_main > ul > li > ul > li{}
+					body #container > #nav_main > .nav_main > ul > li > ul > li:hover{}
+						/* Regular Links */
+						body #container > #nav_main > .nav_main > ul > li > ul > li > a,
+						body #container > #nav_main > .nav_main > ul > li > ul > li > a:link,
+						body #container > #nav_main > .nav_main > ul > li > ul > li > a:visited{color:black;}
+						/* Hover Links */
+						body #container > #nav_main > .nav_main > ul > li > ul > li > a:focus,
+						body #container > #nav_main > .nav_main > ul > li > ul > li > a:active,
+						body #container > #nav_main > .nav_main > ul > li > ul > li > a:hover{color:black; background-color:#ECE8E0}
+				/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* +++++ Buttons +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ~~~~~ Default Buttons ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body #container input[type=submit],
+body #container input[type=reset],
+body #container input[type=button],
+body #container button,
+body #container .btn,
+body #container .homelinks article a,
+body #container .module_propertycontact button{}
+/* Hover Buttons */
+body #container input[type=submit]:focus,
+body #container input[type=submit]:active,
+body #container input[type=submit]:hover,
+body #container input[type=reset]:focus,
+body #container input[type=reset]:active,
+body #container input[type=reset]:hover,
+body #container input[type=button]:focus,
+body #container input[type=button]:active,
+body #container input[type=button]:hover,
+body #container button:focus,
+body #container button:active,
+body #container button:hover,
+body #container .btn:focus,
+body #container .btn:active,
+body #container .btn:hover,
+body #container .homelinks article a:focus,
+body #container .homelinks article a:active,
+body #container .homelinks article a:hover,
+body #container .module_propertycontact button:focus,
+body #container .module_propertycontact button:active,
+body #container .module_propertycontact button:hover{}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~ Alternate-Style Buttons ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body #container button.alt,
+body #container .btn-alt,
+body #container .module_featuredsearches article > a,
+body #container #col-center > .pos > .module.module_featuredsearches > section article > a,
+body #container #col-center > .pos > .module.module_featuredsearches > .content article > a{}
+/* Hover Buttons */
+body #container button.alt:focus,
+body #container button.alt:active,
+body #container button.alt:hover,
+body #container .btn-alt:focus,
+body #container .btn-alt:active,
+body #container .btn-alt:hover,
+body #container .module_featuredsearches article > a:focus,
+body #container .module_featuredsearches article > a:active,
+body #container .module_featuredsearches article > a:hover,
+body #container #col-center > .pos > .module.module_featuredsearches > section article > a:focus,
+body #container #col-center > .pos > .module.module_featuredsearches > section article > a:active,
+body #container #col-center > .pos > .module.module_featuredsearches > section article > a:hover,
+body #container #col-center > .pos > .module.module_featuredsearches > .content article > a:focus,
+body #container #col-center > .pos > .module.module_featuredsearches > .content article > a:active,
+body #container #col-center > .pos > .module.module_featuredsearches > .content article > a:hover{}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+/* ====== Site Body =================================================================================== */
+
+body #container > #body{background:url(/CustomData/150069676/images/bodycontainerBG.png) repeat-x;}
+
+
+/* ================================================================================ */
+
+
+/* ~~~~~ Begin Quick Search Module Vertical ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	#bryansSearch #ctl00_MainContentPlaceholder_HomePage1_mySearchMaster_uc_pnlProperties {
+	float:right;
+	width:230px;
+	height:306px;
+	margin-top:-310px;
+	margin-right:23px; 
+	text-align:center;
+	background:#DBDBDD;
+        border:#2E2A27 2px solid;
+          -moz-box-shadow:    3px 3px 5px 0px #2E2A27;
+          -webkit-box-shadow: 3px 3px 5px 0px #2E2A27;
+          box-shadow:         3px 3px 5px 0px #2E2A27; 
+}
+#bryansSearch .module.module_search{margin-left:7px; margin-top:18px; background:none;}
+#bryansSearch .module.module_search h2{color:#2E2A27!important; margin-left:30px; margin-bottom:10px;}
+#bryansSearch .searchtext {width:185px !important;}
+#bryansSearch .searchtext label span{color:#000 !important;}
+#bryansSearch .minprice {width:90px !important;}
+#bryansSearch .minprice label span{color:#000 !important;}
+#bryansSearch .maxprice {width:90px !important;}
+#bryansSearch .maxprice label span{color:#000 !important;}
+#bryansSearch .beds {width:90px !important;}
+#bryansSearch .beds label span{color:#000 !important;}
+#bryansSearch .baths {width:90px !important;}
+#bryansSearch .baths label {color:#000 !important;}
+#bryansSearch .module.module_search button {margin-left:15px; width:150px; margin-top:15px!important;}
+#bryansSearch .module.module_search li .searchoptions{display:none;}
+
+#bryansSearch .module.module_search{color:#000 !important;}
+
+
+/* Shows the hidden 'Search Home Label' on index page .module_search*/
+#bryansSearch  .tabs header {display:inline; margin-top:-15px;}
+
+/* Removed Outline from .module_search*/
+.module.ui-tabs-panel {border: 0 !important;}
+
+		/* ~~~~~ End Quick Search Module Vertical ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+/* ----- Page Headings ----------------------------------------------------- */
+/*
+ * Page headings/page titles (ie "Contact Us") -- how to give all of the page titles a consistent style
+*/
+
+/* ~~~~~ Unhide Titles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*
+ * These titles are hidden in the global stylesheets
+ * For consistent titles on a default site they must be un-hidden
+*/
+body #container .module.module_sellersresources header,
+body #container .module.module_buyersresources header,
+body #container .module.module_aboutus header{ display:block; }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~ Page Titles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*
+ * These are all the currently known selectors for main page titles
+ * Set the styles for all page main titles
+*/
+body #container #body #col-center .module > header h2,
+body #container #body #col-center .module > header h3,
+body #container #body #col-center .module > header h4,
+body #container #body #col-center .module:first-child > header h2,
+body #container #body #col-center .module:first-child > header h3,
+body #container #body #col-center .module:first-child > header h4,
+body #container #body #col-center > .pos > header h2,
+body #container #body #col-center > .pos > header h3,
+body #container #body #col-center > .pos > header h4,
+body #container #body > .module.module_neighborhoodrequest > header > h3,
+body #container #body > div > .module.module_neighborhoodrequest > header > h3,
+body.bd_neighborhoodvalues_results #container #body #col-center > .pos > h1,
+body#custom #container .module_form > header > *,
+body.bd_content #container .module_form > header > *{}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~ Titles with Subtitles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*
+ * These titles are grouped with subtitles
+ * They will probably require special styles
+*/
+body #container #body #col-center .module > header > hgroup > h2,
+body #container #body #col-center .module > header > hgroup > h3,
+body #container #body #col-center .module > header > hgroup > h4{}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~ Reset Titles  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*
+ * These titles might need to be reset, because either:
+ * 1) The page design is specific and the default style won't work (ex: search page)
+ * 2) Non-page titles have been affected by the page title selector
+*/
+/* Search module headings */
+
+body.bd_advancedssearch #container #body .module.module_search > header > h2,
+body#bd_openhouse #container #body #col-center .module.module_search > header > h2{}
+body #container #body .module.module_search > header > h2
+{padding:0px 5px 5px 5px; text-transform: uppercase; text-align:left; font-size:16px; color:#000; text-shadow: 1px 1px 1px #ccc;}
+
+/* Subtitles, listing counts on search result pages */
+body #container #body .module.module_comparehomesresults > header hgroup h3,
+body #container #body .module.listings_compare > header hgroup h3,
+body #container #body .module.module_listingcount > header h3{}
+
+body #container #body .module.module_comparehomesresults > header hgroup h4,
+body #container #body .module.listings_compare > header hgroup h4{}
+
+/* Neighborhood Values search options headings */
+body#bd_neighborhoodvalues #container #body #col-center .module.module_valuesoptions section article header > h4{}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ------------------------------------------------------------------------------ */
+
+
+
+
+/* ----- Page Body --------------------------------------------------------------- */
+
+	#container .module.module_templatepage {padding:1em;}
+    #container .module.module_formpage {padding:1em;}
+	#container .PH_NeighborhoodReportPlaceHolder{padding:1em;}
+
+		/* ~~~~~ Main Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container #body #col-center.col{}
+				body #container #body #col-center.col > .pos{
+					padding:1em;
+				}
+
+
+		/* ~~~~~ Right Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			body #container #body #col-side-b.col{}
+				body #container #body #col-side-b.col > .pos{
+					padding: 1em;
+				}
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+
+
+/* ----- Modules ------------------------------------------------------------------ */
+
+/* ~~~~~ Homepage, Main Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#bd_home #container #body #col-center .module{}
+	/* Header */
+	#bd_home #container #body #col-center .module > header{}
+		/* Title */
+		#bd_home #container #body #col-center .module > header > *,
+		#bd_home #container #body #col-center .module > header hgroup > *{}
+	/* Content */
+	#bd_home #container #body #col-center .module > section,
+	#bd_home #container #body #col-center .module > .content{}
+	/* Footer */
+	#bd_home #container #body #col-center .module > footer{}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~ Homepage, Right Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#bd_home #container #body #col-side-b .module{}
+	/* Header */
+	#bd_home #container #body #col-side-b .module > header{}
+		/* Title */
+		#bd_home #container #body #col-side-b .module > header > *,
+		#bd_home #container #body #col-side-b .module > header hgroup > *{}
+	/* Content */
+	#bd_home #container #body #col-side-b .module > section,
+	#bd_home #container #body #col-side-b .module > .content{}
+	/* Footer */
+	#bd_home #container #body #col-side-b .module > footer{}
+		#col-side-b .module.module_bizcard{ }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~ Other Pages, Main Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#container #body #col-center .module{}
+	/* Header */
+	#container #body #col-center .module > header{}
+		/* Title */
+		#container #body #col-center .module > header > *,
+		#container #body #col-center .module > header hgroup > *{}
+	/* Content */
+	#container #body #col-center .module > section,
+	#container #body #col-center .module > .content{}
+	/* Footer */
+	#container #body #col-center .module > footer{}
+	
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~ Other Pages, Right Column ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#container #body #col-side-b .module{}
+	/* Header */
+	#container #body #col-side-b .module > header{}
+		/* Title */
+		#container #body #col-side-b .module > header > *,
+		#container #body #col-side-b .module > header hgroup > *{}
+	/* Content */
+	#container #body #col-side-b .module > section,
+	#container #body #col-side-b .module > .content{}
+	/* Footer */
+	#container #body #col-side-b .module > footer{}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~ Module Selector Reference ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body #container #body #col-center .module.module_featuredlisting {border:1px solid #000; margin-top:8px;}
+body #container #body #col-center .module.module_featuredlisting h3{padding:5px;  text-align:left; font-size:18px; color:#fff; background-color:#2E2A27;}
+body #container #body #col-center .module.module_featuredsearches{border:1px solid #000;}
+body #container #body #col-center .module.module_featuredsearches h3{padding:5px;  text-align:left; font-size:18px; color:#fff;  background-color:#2E2A27;}
+body #container #body #col-center .module.module_customcontent{}
+body #container #body #col-side-b .module.module_propertycontact{ }
+body #container #body #col-side-b .module.module_localpropertysearch,
+body #container #body #col-side-b .module.module_localareasearch{display:none;}
+body #container #body #col-side-b .homelinks{ }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* --------------------------------------------------------------------------------- */
+
+/* ~~~~~ Begin Contact Form Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+			#col-side-a > .pos > .module.module_bizcard .agentphoto, #col-side-b > .pos > .module.module_bizcard .agentphoto, #col-side-a > .pos > .module.module_bizcard .agentphoto img, #col-side-b > .pos > .module.module_bizcard .agentphoto img{max-width:77%;}
+			/* Headers in col-side-b */
+			#col-side-b .module.module_bizcard header h3{color:#fff !important;}
+			#col-side-b .module.module_bizcard header{
+			padding:4px;
+			background-color:#2E2A27 !important; 
+			font-size:16px;
+			height:auto;
+			text-align:center;
+			color:#fff !important;
+			}
+			#col-side-b > .pos > .module > header > *{padding:4px;}
+			#col-side-b .module_propertycontact header h3, #col-side-b .module_scheduleshowing header h3, #col-side-b .module_mortgage header h3{
+			margin:0px;
+			padding:6px;
+			background-color:#2E2A27 !important;
+			color:black;
+			font-size:16px;
+			height:auto;
+			text-align:center;
+			color:#fff !important;
+			text-transform:capitalize;
+			}
+			#col-side-b .module_localareasearch header h3{
+			padding:6px;
+			background-color:#2E2A27 !important;
+			color:black;
+			font-size:16px;
+			height:auto;
+			text-align:center;
+			color:#fff !important;			
+			}
+			
+			/* Background of items in col-side-b */
+			#col-side-b .module.module_bizcard {
+			border:1px solid #000;
+			margin-bottom:25px !important; 
+			} 
+			#col-side-b .module_propertycontact, #col-side-b .module_scheduleshowing, #col-side-b .module_mortgage{
+			border:1px solid #000;
+			background-color:;
+			margin-bottom:25px !important;
+			position:relative;
+			}		
+			#col-side-b .module_localareasearch{border:1px solid #000; background-color:;}
+			
+			/* Adjusts padding */
+			#col-side-a > .pos > .module > section, #col-side-b > .pos > .module > section, #col-side-a > .pos > .module > .content, #col-side-b > .pos > .module > .content{padding:.5em;}
+			#col-side-b .module.module_propertycontact section, #col-side-b .module.module_propertycontact div.content{padding:.5em;}
+
+		/* Label Text Color */
+			.module.module_propertycontact #RequestInfoSection fieldset label{color:#000;}
+
+		/* ~~~~~ End Contact Form Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ----- Page Footer ----------------------------------------------------------- */
+/*
+ * This is the first level footer that contains a business card / contact information & custom content module
+*/
+
+/* ~~~~~ Footer Content Wrapper ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body #container > footer .foot_content{}
+	body #container > footer .foot_content > .pos{}
+
+		/* ~~~~~ Business Card ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+		body #container > footer .foot_content .module.module_bizcard{background-color:#E2E2E2;
+		padding:16px;
+		margin-top:9px; margin-left:9px;
+		width:24%;}
+			/* Header */
+			body #container > footer .foot_content .module.module_bizcard > header{}
+				/* Title */
+				body #container > footer .foot_content .module.module_bizcard > header > *
+				body #container > footer .foot_content .module.module_bizcard > header hgroup > *{}
+			body #container > footer .foot_content .module.module_bizcard > section,
+			body #container > footer .foot_content .module.module_bizcard > .content{}
+				/* Address */
+				body #container > footer .foot_content .module.module_bizcard > section .adr,
+				body #container > footer .foot_content .module.module_bizcard > .content .adr{color:#000}
+		/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		/* ~~~~~ Custom Content ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+		body #container > footer .foot_content .module.module_customcontent{
+		background-color:#E2E2E2;
+		padding:16px;
+		margin-top:9px;
+		margin-right:9px;
+		width:67%;
+		}
+			/* Header (works on default content only) */
+			body #container > footer .foot_content module.module_customcontent > header{}
+				/* Title (works on default content only) */
+				body #container > footer .foot_content .module.module_bizcard > header > *
+				body #container > footer .foot_content .module.module_bizcard > header hgroup > *{}
+			/* Content */
+			body #container > footer .foot_content .module.module_customcontent > section,
+			body #container > footer .foot_content .module.module_customcontent > .content{}
+				/* Custom Titles */
+				body #container > footer .foot_content .module.module_customcontent h1,
+				body #container > footer .foot_content .module.module_customcontent h2,
+				body #container > footer .foot_content .module.module_customcontent h3,
+				body #container > footer .foot_content .module.module_customcontent h4,
+				body #container > footer .foot_content .module.module_customcontent h5,
+				body #container > footer .foot_content .module.module_customcontent h6{}
+		/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* --------------------------------------------------------------------------------- */
+
+
+
+
+/* ====== Site Footer ============================================================= */
+/*
+ * This is the second level footer that contains the site disclaimer, member login button, and site map link
+*/
+
+body #container > footer { background-color:#DFDFDF; width:980px; margin:0 auto 0;}
+body #container > footer > .pos {color:#000;}
+/* -----------changes the color of the text of the disclaimer--------- */  .email > a .ePBizCardAgentEmail {color:#000 !important;}
+
+		/* ~~~~~ Disclaimer Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+		body #container > footer > .pos .module.module_disclaimer{}
+			/* Content */
+			body #container > footer > .pos .module.module_disclaimer > section,
+			body #container > footer > .pos .module.module_disclaimer > .content{}
+				/* Default Text */
+				body #container > footer > .pos .module.module_disclaimer small{}
+				/* Credit Text */
+				body #container > footer > .pos .module.module_disclaimer .credits{}
+				/* Copyright Text */
+				body #container > footer > .pos .module.module_disclaimer .copyright{}
+					/* Regular Links */
+					body #container > footer > .pos .module.module_disclaimer a,
+					body #container > footer > .pos .module.module_disclaimer a:link,
+					body #container > footer > .pos .module.module_disclaimer a:visited{}
+					/* Hover Links */
+					body #container > footer > .pos .module.module_disclaimer a:focus,
+					body #container > footer > .pos .module.module_disclaimer a:active,
+					body #container > footer > .pos .module.module_disclaimer a:hover{}
+		/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		/* ~~~~~ Footer Link Module ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+		body #container > footer > .pos .module.module_footerlinks{}
+			/* Content */
+			body #container > footer > .pos .module.module_footerlinks > section,
+			body #container > footer > .pos .module.module_footerlinks > .content{}
+				/* List */
+				body #container > footer > .pos .module.module_footerlinks ul{}
+					/* List Items */
+					body #container > footer > .pos .module.module_footerlinks ul li{}
+					/* Sitemap Item */
+					body #container > footer > .pos .module.module_footerlinks .sitemap{}
+					/* Login Item */
+					body #container > footer > .pos .module.module_footerlinks .loginlink{}
+						/* Regular Links */
+						body #container > footer > .pos .module.module_footerlinks ul li a,
+						body #container > footer > .pos .module.module_footerlinks ul li a:link,
+						body #container > footer > .pos .module.module_footerlinks ul li a:visited{}
+						/* Hover Links */
+						body #container > footer > .pos .module.module_footerlinks ul li a:focus,
+						body #container > footer > .pos .module.module_footerlinks ul li a:active,
+						body #container > footer > .pos .module.module_footerlinks ul li a:hover{}
+		/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+/* LISTINGS */
+
+/* Listing Detail Overview INTERIOR*/
+  .module.module_listing_detail .col-b.address.vcard .adr.fn,
+  .module.module_listing_detail .col-b.address.vcard .price,
+  .pos.pos_listing .price,
+  .pos.pos_listing .adr.fn,
+  .pos.pos_listing .monthly,
+  .pos.pos_listing .details .bedrooms,
+  .pos.pos_listing .details .bathrooms,
+  .pos.pos_listing .details .size,
+  .pos.pos_listing .details .status,
+  .pos.pos_listing .details .mls,
+  #ScheduleAShowingSection label { color:#000; }
+  
+  /* Listing Detail Overview HOMEPAGE*/
+  .module.module_featuredlisting .module.module_listing_detail .col-b.address.vcard .adr.fn,
+.module.module_featuredlisting .col-b.address.vcard .price,
+.module.module_featuredlisting .price,
+.module.module_featuredlisting .adr.fn *,
+.module.module_featuredlisting .monthly,
+.module.module_featuredlisting .bedrooms,
+.module.module_featuredlisting .bathrooms,
+.module.module_featuredlisting .size,
+.module.module_featuredlisting .status,
+.module.module_featuredlisting .type,
+.module.module_featuredlisting .description,
+.module.module_featuredlisting .description *,
+.module.module_featuredlisting .courtesyof,
+.module.module_featuredlisting .buttons *,
+.module.module_featuredlisting .mls{color:#000 !important;}
+ 
+
+
+/* ================================================================================== */
+.slideshow{float:left; margin-left:20px;}
+.slideshow img {display: none; height:306px!important; width:660px!important;
+        border:#2E2A27 2px solid;
+          -moz-box-shadow:    3px 3px 5px 0px #2E2A27;
+          -webkit-box-shadow: 3px 3px 5px 0px #2E2A27;
+          box-shadow:         3px 3px 5px 0px #2E2A27; }
+.slideshow img.first {display: block;}
+.splashBox {height:385px;}
+
+
+.custButton {width: 750px; height: 40px; margin:10px auto 0px;}
+
+.custButton a{font-size: 12px; display:block; float:left; text-align:center; margin:0px 10px 0px 10px;width:200px; background-color:#dbdbdd; color:#000;  padding:5px 10px;   border: 2px solid #2E2A27; border-radius:10px;
+		  -moz-box-shadow:    3px 3px 5px 0px #111;
+          -webkit-box-shadow: 3px 3px 5px 0px #111;
+          box-shadow:         3px 3px 5px 0px #111;}
+		  
+.custButton a:hover {background-color:#B6B6B7; color:#000;}	
+
+#testimonials {
+width:914px;
+background:#E7E9E6;
+border:1px solid #D8D9D6;
+margin:0px auto 0px;;
+}
+#testimonials blockquote{
+padding:10px;
+width:894px !important;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+color:#808080;
+display:block;
+}
+ 
+#testimonials blockquote p{
+margin: 0 !important;padding: 5px!important;
+ 
+}
+#testimonials blockquote cite {
+font-style: normal;
+display: block; 
+text-transform: uppercase;
+font-weight: bold;
+font-style:italic;
+color: #555;
+padding-left:5px;
+margin-top:10px;
+}
+#testimonialsfullbox{border:1px solid #2E2A27; padding:6px; margin:10px auto 0px; width:934px;}
+#testimonialheader{font-size:24px;}
+
+.clear{clear:both;}
+
+.socialMedia{float:right; margin-top: 90px; margin-right: 40px;}
+.socialMedia img{padding-right: 9px;}
+
+/* ~~~~~ QR Code ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.QRCode img{height:125px; width:125px;}
+.QRCode {float:right;}
